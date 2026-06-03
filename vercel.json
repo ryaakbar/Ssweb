@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": "public",
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/api/pikwy",     "destination": "/api/pikwy.js" },
+    { "source": "/api/microlink", "destination": "/api/microlink.js" },
+    { "source": "/api/vivoldi",   "destination": "/api/vivoldi.js" },
+    { "source": "/(.*)",          "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "snapshot-web-screenshot",
+  "version": "1.0.0",
+  "description": "Premium web screenshot dashboard — Pikwy · Microlink · Vivoldi",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@microlink/mql": "^0.18.0",
+    "axios": "^1.7.2",
+    "axios-cookiejar-support": "^5.0.0",
+    "tough-cookie": "^4.1.4"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
